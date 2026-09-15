@@ -121,7 +121,7 @@ const handleMouseMove = (e: MouseEvent<HTMLElement>) => {
             </h1>
 
             <p className={`mt-8 max-w-[440px] text-[15px] leading-[1.7] text-[#B3AC9B] ${reveal("delay-300")}`}>
-              Uttra Pradesh District Tenish Cricket League 
+              Uttar Pradesh District Tenish Cricket League 
             </p>
 
             <div className={`mt-10 flex flex-wrap items-center gap-6 ${reveal("delay-500")}`}>
