@@ -28,9 +28,9 @@ const bodyFont = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "UPTCL T20",
+  title: "updtcl T10",
   description:
-    "Uttar Pradesh District Tennis Cricket League",
+    "Uttar Pradesh District Tenish Cricket League",
 };
 
 export default function RootLayout({

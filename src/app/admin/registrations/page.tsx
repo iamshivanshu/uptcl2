@@ -175,7 +175,7 @@ return (
             </Link>
 
             <div className="font-[family-name:var(--font-display)] text-lg font-semibold">
-              UPTCL
+              updtcl
             </div>
 
             <span className="hidden text-[9px] tracking-[0.2em] text-white/20 sm:block">
@@ -391,11 +391,11 @@ return (
 
         <footer className="flex flex-col gap-3 py-8 sm:flex-row sm:justify-between">
           <span className="text-[9px] tracking-[0.18em] text-white/15">
-            UTTAR PRADESH DISTRICT TENNIS CRICKET LEAGUE
+            UTTAR PRADESH DISTRICT Tenish CRICKET LEAGUE
           </span>
 
           <span className="text-[9px] tracking-[0.18em] text-white/15">
-            UPTCL ADMIN
+            updtcl ADMIN
           </span>
                 </footer>
       </div>

@@ -154,7 +154,7 @@ export default function AdminDashboard() {
           href="/admin"
           className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-[-0.04em]"
         >
-          UPTCL<span className="text-[#C9A45C]">.</span>
+          updtcl<span className="text-[#C9A45C]">.</span>
         </Link>
 
         <button
@@ -183,7 +183,7 @@ export default function AdminDashboard() {
                 href="/admin"
                 className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-[-0.05em]"
               >
-                UPTCL<span className="text-[#C9A45C]">.</span>
+                updtcl<span className="text-[#C9A45C]">.</span>
               </Link>
 
               <p className="mt-1 text-[9px] tracking-[0.18em] text-white/30">
@@ -219,7 +219,7 @@ export default function AdminDashboard() {
             {/* Bottom */}
             <div className="border-t border-white/10 px-7 py-6">
               <p className="text-[9px] tracking-[0.15em] text-white/25">
-                UPTCL T20
+                updtcl T10
               </p>
 
               <p className="mt-1 text-xs text-white/45">
@@ -262,7 +262,7 @@ export default function AdminDashboard() {
                 </p>
 
                 <p className="mt-1 text-xs font-medium">
-                  UPTCL T20
+                  updtcl T10
                 </p>
               </div>
 
@@ -490,7 +490,7 @@ export default function AdminDashboard() {
               </div>
 
               <span className="text-[9px] tracking-[0.15em] text-[#11120F]/25">
-                UPTCL T20 / ADMIN PORTAL
+                updtcl T10 / ADMIN PORTAL
               </span>
             </section>
 

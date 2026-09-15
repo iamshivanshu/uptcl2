@@ -22,11 +22,11 @@ export default function RegisterPage() {
 
           <div className="text-right">
             <p className="font-[family-name:var(--font-display)] text-2xl font-bold tracking-[-0.04em]">
-              UPTCL<span className="text-[#C9A45C]">.</span>
+              updtcl<span className="text-[#C9A45C]">.</span>
             </p>
 
             <p className="hidden text-[9px] tracking-[0.18em] text-white/30 sm:block">
-              T20 REGISTRATION
+              T10 REGISTRATION
             </p>
           </div>
         </header>
@@ -48,7 +48,7 @@ export default function RegisterPage() {
 
             <div className="border-t border-white/15 pt-5">
               <p className="text-sm leading-6 text-white/45">
-                Complete your player profile to begin your UPTCL T20
+                Complete your player profile to begin your updtcl T10
                 registration.
               </p>
             </div>
@@ -61,7 +61,7 @@ export default function RegisterPage() {
         {/* Footer */}
         <footer className="mt-16 border-t border-white/10 py-6">
           <div className="flex flex-col gap-3 text-[9px] tracking-[0.15em] text-white/25 sm:flex-row sm:items-center sm:justify-between">
-            <span>UPTCL T20</span>
+            <span>updtcl T10</span>
             <span>UTTAR PRADESH</span>
             <a href="tel:9981330383" className="hover:text-white/50">
               9981330383

@@ -68,71 +68,18 @@ export default function Navbar() {
       >
         <div className="mx-auto flex h-[88px] max-w-[1600px] items-center justify-between px-5 sm:px-8 lg:px-12">
 
-          {/* Logo */}
-
-          <Link
-            href="/"
-            className="group flex items-center gap-3"
-          >
-            <div
-              className="
-                relative flex size-10 shrink-0
-                -skew-x-[8deg]
-                items-center justify-center
-                overflow-hidden
-                bg-[#d5ff5c]
-                text-[#050806]
-              "
-            >
-              <span
-                className="
-                  relative z-10
-                  skew-x-[8deg]
-                  font-[family-name:var(--font-display)]
-                  text-[28px]
-                  font-black
-                  leading-none
-                "
-              >
-                U
-              </span>
-
-              <span
-                className="
-                  absolute
-                  h-px
-                  w-[150%]
-                  rotate-[-45deg]
-                  bg-black/20
-                "
-              />
-            </div>
-
-            <div className="flex flex-col gap-1">
-              <span
-                className="
-                  font-[family-name:var(--font-display)]
-                  text-[25px]
-                  font-extrabold
-                  leading-[0.8]
-                  tracking-[1.5px]
-                  text-[#f4f6ef]
-                "
-              >
-                UPTCL
-              </span>
-
-              <span className="flex items-center gap-1.5 text-[7px] font-bold tracking-[2px] text-[#657168]">
-                <span className="text-[#d5ff5c]">
-                  T20
-                </span>
-
-                <span className="h-px w-3 bg-[#3b453e]" />
-
-                <span>LEAGUE</span>
-              </span>
-            </div>
-          </Link>
+      {/* Logo */}
+<Link
+  href="/"
+  className="group flex items-center"
+>
+  <img
+    src="/logo.png"
+    alt="UPDTCL T10 League"
+    className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.03]"
+  />
+</Link>
+         
 
           {/* Desktop Navigation */}
 

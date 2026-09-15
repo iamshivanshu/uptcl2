@@ -2,7 +2,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Hero from "@/components/hero/Hero";
 import AboutLeague from "@/components/about/AboutLeague";
 import HowItWorks from "@/components/how-it-works/HowItWorks";
-import WhyUptcl from "@/components/why-uptcl/WhyUptcl";
+import Whyupdtcl from "@/components/why-updtcl/WhyUpdtcl";
 import Registration from "@/components/registration/Registration";
 import FAQFooter from "@/components/faq-footer/FAQFooter";
 
@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <AboutLeague />
       <HowItWorks />
-      <WhyUptcl />
+      <Whyupdtcl />
       <Registration/>
       <FAQFooter />
     </main>

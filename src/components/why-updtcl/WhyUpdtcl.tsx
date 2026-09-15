@@ -9,7 +9,7 @@ const chapters = [
     label: "THE CHANCE",
     title: "It starts with\nan opportunity.",
     description:
-      "Every player needs a stage. UPTCL brings district cricket into one competitive platform where you get the chance to step forward.",
+      "Every player needs a stage. updtcl brings district cricket into one competitive platform where you get the chance to step forward.",
     word: "ENTER",
   },
   {
@@ -30,13 +30,13 @@ const chapters = [
   },
 ];
 
-export default function WhyUptcl() {
+export default function Whyupdtcl() {
   const [active, setActive] = useState(0);
   const chapter = chapters[active];
 
   return (
     <section
-      id="why-uptcl"
+      id="why-updtcl"
       className="relative min-h-[100svh] overflow-hidden bg-[#F4F2EC] text-[#11120F]"
     >
       <div className="mx-auto flex min-h-[100svh] w-[90%] max-w-[1450px] flex-col py-7 sm:py-9 lg:py-10">
@@ -49,7 +49,7 @@ export default function WhyUptcl() {
             </span>
 
             <span className="text-[10px] font-semibold tracking-[0.22em] text-[#11120F]/45">
-              WHY UPTCL
+              WHY updtcl
             </span>
           </div>
 
@@ -73,7 +73,7 @@ export default function WhyUptcl() {
           </div>
 
           <p className="max-w-[270px] text-sm leading-6 text-[#11120F]/50 lg:pb-2">
-            UPTCL brings the stage.
+            updtcl brings the stage.
             <br />
             What happens next is up to you.
           </p>

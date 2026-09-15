@@ -159,7 +159,7 @@ export default function RegistrationDetail({
             </Link>
 
             <span className="font-[family-name:var(--font-display)] text-lg font-semibold tracking-tight">
-              UPTCL
+              updtcl
             </span>
 
             <span className="hidden text-[9px] tracking-[0.18em] text-white/25 sm:block">
@@ -386,11 +386,11 @@ export default function RegistrationDetail({
 
         <footer className="flex flex-col gap-4 py-8 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-[9px] tracking-[0.18em] text-white/20">
-            UTTAR PRADESH DISTRICT TENNIS CRICKET LEAGUE
+            UTTAR PRADESH DISTRICT Tenish CRICKET LEAGUE
           </p>
 
           <p className="text-[9px] tracking-[0.18em] text-white/20">
-            UPTCL ADMIN
+            updtcl ADMIN
           </p>
         </footer>
       </div>

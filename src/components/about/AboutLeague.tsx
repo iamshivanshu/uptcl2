@@ -8,14 +8,14 @@ const points = [
     title: "DISTRICT",
     headline: "Represent where you play.",
     description:
-      "Bring your district identity to a league built around competitive tennis cricket.",
+      "Bring your district identity to a league built around competitive Tenish cricket.",
   },
   {
     number: "02",
     title: "COMPETE",
     headline: "Play on a bigger stage.",
     description:
-      "Step into a structured T20 environment designed for players who want to compete.",
+      "Step into a structured T10 environment designed for players who want to compete.",
   },
   {
     number: "03",
@@ -57,7 +57,7 @@ export default function AboutLeague() {
           <div className="flex flex-col justify-between border-b border-black/10 pb-12 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-16">
             <div>
               <p className="text-[9px] font-semibold uppercase tracking-[0.2em] text-[#A9473C]">
-                UPTCL T20
+                updtcl T10
               </p>
 
               <h2 className="mt-7 max-w-[430px] font-[family-name:var(--font-display)] text-[clamp(4rem,7vw,7rem)] font-bold uppercase leading-[0.78] tracking-[-0.055em]">
@@ -76,7 +76,7 @@ export default function AboutLeague() {
                 </p>
 
                 <p className="mt-2 text-[11px] text-black/45">
-                  District Tennis Cricket League
+                  District Tenish Cricket League
                 </p>
               </div>
 

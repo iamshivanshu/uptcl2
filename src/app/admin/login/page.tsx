@@ -66,7 +66,7 @@ export default function AdminLoginPage() {
         <section className="hidden border-r border-white/10 lg:flex lg:flex-col lg:justify-between lg:p-12">
           <div>
             <p className="font-[family-name:var(--font-display)] text-4xl font-bold tracking-[-0.05em]">
-              UPTCL<span className="text-[#C9A45C]">.</span>
+              updtcl<span className="text-[#C9A45C]">.</span>
             </p>
 
             <p className="mt-2 text-[9px] tracking-[0.2em] text-white/30">
@@ -76,7 +76,7 @@ export default function AdminLoginPage() {
 
           <div>
             <p className="mb-5 text-[9px] font-semibold tracking-[0.2em] text-[#C9A45C]">
-              UPTCL T20
+              updtcl T10
             </p>
 
             <h1 className="font-[family-name:var(--font-display)] text-[clamp(4rem,7vw,7rem)] font-medium uppercase leading-[0.82] tracking-[-0.05em]">
@@ -92,7 +92,7 @@ export default function AdminLoginPage() {
           </div>
 
           <p className="text-[9px] tracking-[0.15em] text-white/20">
-            UPTCL T20 / ADMIN PORTAL
+            updtcl T10 / ADMIN PORTAL
           </p>
         </section>
 
@@ -103,7 +103,7 @@ export default function AdminLoginPage() {
             {/* Mobile logo */}
             <div className="mb-16 lg:hidden">
               <p className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-[-0.05em]">
-                UPTCL<span className="text-[#C9A45C]">.</span>
+                updtcl<span className="text-[#C9A45C]">.</span>
               </p>
 
               <p className="mt-1 text-[9px] tracking-[0.2em] text-white/30">
@@ -121,7 +121,7 @@ export default function AdminLoginPage() {
               </h2>
 
               <p className="mt-4 text-sm leading-6 text-white/35">
-                Access the UPTCL registration dashboard.
+                Access the updtcl registration dashboard.
               </p>
             </div>
 

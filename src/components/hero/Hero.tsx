@@ -113,17 +113,15 @@ const handleMouseMove = (e: MouseEvent<HTMLElement>) => {
 
             <h1 className="font-[family-name:var(--font-display)] uppercase font-black leading-[0.8] tracking-[-0.03em]">
               <span className={`block text-[clamp(5rem,12vw,10.5rem)] text-[#F5F1E6] ${reveal("delay-100")}`}>
-                UPTCL
+                updtcl
               </span>
               <span className={`block text-[clamp(3.4rem,8vw,7rem)] text-[#9C3F2A] ${reveal("delay-200")}`}>
-                T20
+                T10
               </span>
             </h1>
 
             <p className={`mt-8 max-w-[440px] text-[15px] leading-[1.7] text-[#B3AC9B] ${reveal("delay-300")}`}>
-              Seventy-five districts, one tennis ball. Sixteen weeks of
-              knockout cricket across Uttar Pradesh, closing with the final
-              under lights at Kanpur&rsquo;s Green Park.
+              Uttra Pradesh District Tenish Cricket League 
             </p>
 
             <div className={`mt-10 flex flex-wrap items-center gap-6 ${reveal("delay-500")}`}>
@@ -160,16 +158,14 @@ const handleMouseMove = (e: MouseEvent<HTMLElement>) => {
                 />
               </Link>
 
-              <span className="text-[13px] text-[#726C5E]">
-                ₹999 to enter · closes 30 Nov
-              </span>
+             
             </div>
 
           </div>
 
 
           {/* =====================================================
-              TENNIS BALL
+              Tenish BALL
               Layered so each motion is independent:
               outer div  -> cursor parallax (JS, smoothed by transition)
               middle div -> idle float
@@ -278,7 +274,7 @@ const handleMouseMove = (e: MouseEvent<HTMLElement>) => {
         {/* SCOREBOARD FOOTER */}
         <footer className={`flex flex-wrap items-center justify-between gap-6 border-t border-[#F5F1E6]/[0.08] py-6 ${reveal("delay-700")}`}>
 
-          <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
+         {/* <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
             <div className="flex items-baseline gap-2">
               <span className="font-[family-name:var(--font-display)] text-[20px] font-bold text-[#F5F1E6]">75</span>
               <span className="text-[12px] text-[#726C5E]">districts</span>
@@ -297,7 +293,8 @@ const handleMouseMove = (e: MouseEvent<HTMLElement>) => {
               <span className="font-[family-name:var(--font-display)] text-[20px] font-bold text-[#F5F1E6]">01</span>
               <span className="text-[12px] text-[#726C5E]">final, Green Park</span>
             </div>
-          </div>
+          </div>*/}
+          
 
           <div className="flex items-center gap-2 text-[#9C3F2A]">
             <span className="hidden text-[12px] text-[#726C5E] sm:block">Scroll</span>

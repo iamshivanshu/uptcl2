@@ -57,11 +57,11 @@ export default function MobileMenu({
 
             <div className="flex flex-col">
               <span className="font-[family-name:var(--font-display)] text-[23px] font-extrabold leading-none tracking-[1px]">
-                UPTCL
+                updtcl
               </span>
 
               <span className="mt-1 text-[6px] font-bold tracking-[2px] text-[#657168]">
-                T20 LEAGUE
+                T10 LEAGUE
               </span>
             </div>
           </Link>
@@ -84,7 +84,7 @@ export default function MobileMenu({
           </span>
 
           <span className="text-[#58645c]">
-            UPTCL / 2026
+            updtcl / 2026
           </span>
         </div>
 

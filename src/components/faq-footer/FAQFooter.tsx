@@ -8,12 +8,12 @@ const faqs = [
   {
     question: "Who can register?",
     answer:
-      "Players can register under the available UPTCL age groups: Under 19, Under 23, and Above 23.",
+      "Players can register under the available updtcl age groups: Under 19, Under 23, and Above 23.",
   },
   {
     question: "What is the registration fee?",
     answer:
-      "The registration fee for UPTCL T20 is ₹999.",
+      "The registration fee for updtcl T10 is ₹999.",
   },
   {
     question: "What information is required?",
@@ -151,13 +151,13 @@ export default function FAQFooter() {
             {/* Brand */}
             <div>
               <p className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-[-0.04em]">
-                UPTCL<span className="text-[#A9473C]">.</span>
+                updtcl<span className="text-[#A9473C]">.</span>
               </p>
 
               <p className="mt-2 max-w-[260px] text-[10px] leading-5 tracking-[0.08em] text-[#11120F]/40">
                 UTTAR PRADESH DISTRICT
                 <br />
-                TENNIS CRICKET LEAGUE
+                Tenish CRICKET LEAGUE
               </p>
             </div>
 
@@ -178,10 +178,10 @@ export default function FAQFooter() {
               </Link>
 
               <Link
-                href="#why-uptcl"
+                href="#why-updtcl"
                 className="text-[10px] font-semibold tracking-[0.16em] text-[#11120F]/45 transition-colors hover:text-[#11120F]"
               >
-                WHY UPTCL
+                WHY updtcl
               </Link>
 
               <Link
@@ -210,7 +210,7 @@ export default function FAQFooter() {
           {/* Copyright */}
           <div className="mt-8 flex flex-col gap-2 border-t border-[#11120F]/10 pt-5 text-[9px] tracking-[0.14em] text-[#11120F]/25 sm:flex-row sm:items-center sm:justify-between">
             <span>
-              © {new Date().getFullYear()} UPTCL T20
+              © {new Date().getFullYear()} updtcl T10
             </span>
 
             <span>

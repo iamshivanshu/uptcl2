@@ -22,7 +22,7 @@ export default function Registration() {
           </div>
 
           <span className="hidden text-[10px] tracking-[0.2em] text-white/30 sm:block">
-            UPTCL T20
+            updtcl T10
           </span>
         </div>
 
@@ -113,7 +113,7 @@ export default function Registration() {
         {/* Bottom */}
         <div className="flex items-center justify-between border-t border-white/15 pt-5">
           <span className="text-[9px] tracking-[0.2em] text-white/25 sm:text-[10px]">
-            UTTAR PRADESH DISTRICT TENNIS CRICKET LEAGUE
+            UTTAR PRADESH DISTRICT Tenish CRICKET LEAGUE
           </span>
 
           <span className="hidden text-[10px] tracking-[0.2em] text-white/25 sm:block">

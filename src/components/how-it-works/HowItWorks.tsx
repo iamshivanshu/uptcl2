@@ -30,7 +30,7 @@ const steps = [
     title: "PLAY",
     short: "Make it count.",
     description:
-      "Compete in the T20 format and make your performance part of the season.",
+      "Compete in the T10 format and make your performance part of the season.",
   },
 ];
 

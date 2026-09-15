@@ -90,6 +90,7 @@ export default function RegistrationForm() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
   const [success, setSuccess] = useState(false);
+  const [termsAccepted, setTermsAccepted] = useState(false);
 
   function updateField(
     field: keyof FormData,
@@ -168,9 +169,16 @@ export default function RegistrationForm() {
     setMessage("");
     setSuccess(false);
 
-    if (!validateForm()) {
-      return;
-    }
+   if (!validateForm()) {
+  return;
+}
+
+if (!termsAccepted) {
+  setMessage("Please accept the Terms & Conditions before continuing.");
+  return;
+}
+
+
 
     setLoading(true);
 
@@ -179,7 +187,7 @@ export default function RegistrationForm() {
        * Generate registration number
        */
 
-      const registrationNumber = `UPTCL-${Date.now()}`;
+      const registrationNumber = `updtcl-${Date.now()}`;
       const registrationId = crypto.randomUUID();
 
       /*
@@ -293,10 +301,10 @@ const { error: registrationError } = await supabase
 
           currency: orderData.currency,
 
-          name: "UPTCL T20",
+          name: "updtcl T10",
 
           description:
-            "Uttar Pradesh District Tennis Cricket League",
+            "Uttar Pradesh District Tenish Cricket League",
 
           order_id:
             orderData.orderId,
@@ -392,6 +400,8 @@ const { error: registrationError } = await supabase
                 district: "",
                 state: "Uttar Pradesh",
               });
+
+              setTermsAccepted(false);
             } catch (error) {
               console.error(
                 "Payment verification error:",
@@ -436,11 +446,22 @@ const { error: registrationError } = await supabase
     }
   }
 
-  return (
-    <form
-      onSubmit={handleSubmit}
-      className="space-y-8"
-    >
+return (
+  <div
+    className="relative min-h-screen w-full bg-cover bg-center bg-no-repeat bg-fixed"
+    style={{
+      backgroundImage: "url('/stad.jpg')",
+    }}
+  >
+    {/* Dark overlay */}
+    <div className="fixed inset-0 bg-[#11120F]/55" />
+
+    {/* Content */}
+    <div className="relative z-10 mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
+      <form
+        onSubmit={handleSubmit}
+        className="space-y-8"
+      >
       {/* ================================= */}
       {/* 01 PERSONAL DETAILS */}
       {/* ================================= */}
@@ -604,6 +625,105 @@ const { error: registrationError } = await supabase
         </div>
       </FormSection>
 
+{/* ================================= */}
+{/* 05 TERMS & CONDITIONS */}
+{/* ================================= */}
+
+<section className="border border-[#11120F]/15 bg-white">
+
+  <div className="border-b border-[#11120F]/10 px-6 py-5 sm:px-8">
+    <div className="flex items-start gap-5">
+
+      <span className="font-[family-name:var(--font-display)] text-sm font-medium text-[#C9A45C]">
+        05
+      </span>
+
+      <div>
+        <h2 className="font-[family-name:var(--font-display)] text-2xl font-medium uppercase tracking-tight text-[#11120F] sm:text-3xl">
+          Terms & Conditions
+        </h2>
+
+        <p className="mt-1 text-xs text-[#11120F]/40">
+          Please read and accept the league terms before continuing.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div className="p-6 sm:p-8">
+
+    <div className="max-h-[320px] overflow-y-auto border border-[#11120F]/10 bg-[#FAF9F5] p-5 sm:p-6">
+
+      <div className="space-y-5 text-sm leading-7 text-[#11120F]/70">
+
+        <p>
+          यह लीग पूरी तरह से निजी एवं व्यक्तिगत है। टीम में रजिस्ट्रेशन से
+          जुड़ी फीस/प्रक्रिया के अनुसार सभी खिलाड़ियों का पंजीकरण करना
+          अनिवार्य होगा। प्रत्येक खिलाड़ी को वैध फोटो पहचान पत्र प्रस्तुत
+          करना होगा।
+        </p>
+
+        <p>
+          सभी मैच ICC के नियमों एवं निर्देशों के अनुसार खेले जाएंगे
+          (जब तक लीग के विशेष नियम अलग न हों)।
+        </p>
+
+        <p>
+          मैदान पर अंपायर का निर्णय अंतिम होगा।
+        </p>
+
+        <p>
+          धोखाधड़ी, गाली-गलौज, मारपीट जैसे किसी भी अनुशासनहीन व्यवहार पर
+          टीम या किसी खिलाड़ी को बाहर किया जा सकता है।
+        </p>
+
+        <p>
+          आयोजन जो टीमों को समय, स्थान आदि की जानकारी देगा, उसमें
+          आवश्यकतानुसार बदलाव करने का अधिकार आयोजक को होगा।
+        </p>
+
+        <p>
+          किसी भी विवाद का निर्णय आयोजन समिति द्वारा किया जाएगा और
+          आयोजन समिति का निर्णय अंतिम एवं मान्य होगा।
+        </p>
+
+        <p>
+          खिलाड़ियों की सुरक्षा को लेकर पर्याप्त निगरानी एवं व्यवस्था रहेगी।
+        </p>
+
+        <p>
+          आयोजन केवल खेल आयोजन के लिए जिम्मेदार होगा। खिलाड़ियों की
+          व्यक्तिगत दुर्घटना या नुकसान के लिए उनकी अपनी जिम्मेदारी होगी।
+        </p>
+
+      </div>
+
+    </div>
+
+    {/* Acceptance */}
+    <label className="mt-6 flex cursor-pointer items-start gap-3">
+
+      <input
+        type="checkbox"
+        checked={termsAccepted}
+        onChange={(event) =>
+          setTermsAccepted(event.target.checked)
+        }
+        className="mt-1 size-4 shrink-0 accent-[#C9A45C]"
+      />
+
+      <span className="text-xs leading-5 text-[#11120F]/65">
+        मैं उपरोक्त सभी नियम एवं शर्तों को पढ़कर स्वीकार करता हूँ
+        और लीग के नियमों का पालन करने के लिए सहमत हूँ।
+      </span>
+
+    </label>
+
+  </div>
+
+</section>
+
       {/* ================================= */}
       {/* 05 PAYMENT */}
       {/* ================================= */}
@@ -614,7 +734,7 @@ const { error: registrationError } = await supabase
           <div className="flex items-start gap-5">
 
             <span className="font-[family-name:var(--font-display)] text-sm font-medium text-[#C9A45C]">
-              05
+              06
             </span>
 
             <div>
@@ -734,6 +854,8 @@ const { error: registrationError } = await supabase
         information provided is accurate.
       </p>
     </form>
+      </div>
+</div>
   );
 }
 
