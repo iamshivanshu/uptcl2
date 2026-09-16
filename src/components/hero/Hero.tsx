@@ -64,10 +64,18 @@ const handleMouseMove = (e: MouseEvent<HTMLElement>) => {
           BACKGROUND
       ========================================================= */}
 
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-[linear-gradient(160deg,#171812_0%,#12130F_45%,#0D0E0A_100%)]"
-      />
+  <div
+  aria-hidden="true"
+  className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat"
+  style={{
+    backgroundImage: "url('/std.png')",
+  }}
+/>
+
+<div
+  aria-hidden="true"
+  className="pointer-events-none absolute inset-0 bg-[#12130F]/60"
+/>
 
       <div
         aria-hidden="true"
