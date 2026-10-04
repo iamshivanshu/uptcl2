@@ -61,7 +61,7 @@ export default function Whyupdtcl() {
         {/* Intro */}
         <div className="grid gap-8 py-12 sm:py-14 lg:grid-cols-[1fr_auto] lg:items-end lg:py-16">
           <div>
-            <p className="mb-5 text-[10px] font-semibold tracking-[0.22em] text-[#11120F]/40">
+            <p className="mb-5 text-[14px] font-semibold tracking-[0.22em] text-[#11120F]/40">
               THE STORY
             </p>
 
@@ -72,7 +72,7 @@ export default function Whyupdtcl() {
             </h2>
           </div>
 
-          <p className="max-w-[270px] text-sm leading-6 text-[#11120F]/50 lg:pb-2">
+          <p className="max-w-[270px] text-base leading-6 text-[#11120F]/50 lg:pb-2">
             updtcl brings the stage.
             <br />
             What happens next is up to you.

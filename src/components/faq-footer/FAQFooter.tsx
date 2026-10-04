@@ -150,7 +150,7 @@ export default function FAQFooter() {
 
             {/* Brand */}
             <div>
-              <p className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-[-0.04em]">
+              <p className="font-[family-name:var(--font-display)] text-6xl font-bold tracking-[-0.04em]">
                 updtcl<span className="text-[#A9473C]">.</span>
               </p>
 

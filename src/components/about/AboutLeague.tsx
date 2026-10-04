@@ -41,7 +41,7 @@ export default function AboutLeague() {
         <div className="mb-10 flex items-center justify-between border-b border-black/10 pb-5 lg:mb-14">
           <div className="flex items-center gap-3">
             <span className="size-1.5 rounded-full bg-[#A9473C]" />
-            <span className="text-[9px] font-semibold uppercase tracking-[0.22em] text-black/45">
+            <span className="text-[12px] font-semibold uppercase tracking-[0.22em] text-black/45">
               The League
             </span>
           </div>
@@ -56,7 +56,7 @@ export default function AboutLeague() {
           {/* Left editorial column */}
           <div className="flex flex-col justify-between border-b border-black/10 pb-12 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-16">
             <div>
-              <p className="text-[9px] font-semibold uppercase tracking-[0.2em] text-[#A9473C]">
+              <p className="text-[12px] font-semibold uppercase tracking-[0.2em] text-[#A9473C]">
                 updtcl T10
               </p>
 
@@ -75,7 +75,7 @@ export default function AboutLeague() {
                   Uttar Pradesh
                 </p>
 
-                <p className="mt-2 text-[11px] text-black/45">
+                <p className="mt-2 text-[18px] text-black/45">
                   District Tenish Cricket League
                 </p>
               </div>
@@ -159,11 +159,11 @@ export default function AboutLeague() {
 
             {/* Bottom metadata */}
             <div className="flex items-center justify-between pt-7">
-              <span className="text-[8px] font-semibold uppercase tracking-[0.2em] text-black/25">
+              <span className="text-[12px] font-semibold uppercase tracking-[0.2em] text-black/25">
                 2026 Season
               </span>
 
-              <span className="text-[8px] font-semibold uppercase tracking-[0.2em] text-black/25">
+              <span className="text-[12px] font-semibold uppercase tracking-[0.2em] text-black/25">
                 Uttar Pradesh
               </span>
             </div>
