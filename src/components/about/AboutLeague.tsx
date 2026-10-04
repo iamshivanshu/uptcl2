@@ -56,9 +56,9 @@ export default function AboutLeague() {
           {/* Left editorial column */}
           <div className="flex flex-col justify-between border-b border-black/10 pb-12 lg:border-b-0 lg:border-r lg:pb-0 lg:pr-16">
             <div>
-              <p className="text-[12px] font-semibold uppercase tracking-[0.2em] text-[#A9473C]">
-                updtcl T10
-              </p>
+ <p className="inline-block rounded-md bg-[#A9473C] px-3 py-1 text-[12px] font-semibold uppercase tracking-[0.2em] text-white shadow-sm">
+  uptcl T10
+</p>
 
               <h2 className="mt-7 max-w-[430px] font-[family-name:var(--font-display)] text-[clamp(4rem,7vw,7rem)] font-bold uppercase leading-[0.78] tracking-[-0.055em]">
                 More
